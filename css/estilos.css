@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: "Roboto";
+}
+.ventanalogin, .ventanaregistro{
+    margin: 0 auto;
+    width: 34%;
+    margin-top: 50px;
+    background-color: #d8d6d6;
+
+}
+.tituloventana{
+    font-size: 20pt;
+    color: white;
+    padding: 20px;
+    background-color: gray;
+}
+.grupo{
+    line-height: 26pt;
+    padding: 10px 20px;
+}
+input{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.botones{
+    display: flex;
+    padding: 20px 5px;
+}
+a{
+    width: 40%;
+    display: block;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    margin: 0 auto;
+    color: black;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #696666;
+    color: white;
+}
+#errorusuario,#errorpassword{
+    color: red;
+}
+.listacupones{
+    float: left;
+    width: 50%;
+    background-color: #d8d6d6;
+}
+.titulo{
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+.nuevocupon{
+    float: left;
+    width: 50%;
+    display: flex;
+
+    padding: 20px;
+    box-sizing: border-box;
+}
+.nuevocupon a{
+    background-color: #d8d6d6;
+    padding: 15px;
+    transition: all 0.2s ease;
+}
+.nuevocupon a:hover{
+    background-color: #696666;
+    color: white;
+}
+.botoncupon{
+    float: left;
+    width: 75%;
+    float: left;
+    width: 75%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.canjeado{
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+#listadecupones a{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    margin: 0 auto;
+    color: black;
+    border-radius: 2px;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: #e6e2e2;
+}
+#listadecupones a:hover{
+    background-color: #808080;
+    color: white;
+}
+#tapa{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    position: fixed;
+    display: none;
+    text-align: center;
+    z-index: 1;
+
+}
+.mensaje{
+    background-color: white;
+    width: 250px;
+    margin: 0 auto;
+    padding: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-size: 16pt;
+    top: 30%;
+    position: relative;
+
+    transition: all 0.3s;
+    transform: scale(0);
+    -ms-transform: scale(0);
+}
